@@ -1,0 +1,13 @@
+name: 'Islandora Batch Edit'
+type: module
+description: 'This module imports the Batch View Edit feature'
+core: 8.x
+core_version_requirement: '^8 || ^9'
+package: Custom
+dependencies:
+  - views_bulk_operations
+  - views_bulk_edit
+  - 'drupal:user'
+  - 'drupal:node'
+  - node
+  - user
